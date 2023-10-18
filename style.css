@@ -1,0 +1,10 @@
+.HomePageBody {
+    background: lightpink;
+}
+div{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5vw;
+}
+::selection {
+    background: lightblue;
+}
