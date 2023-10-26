@@ -1,9 +1,19 @@
-.HomePageBody {
-    background: rgb(209, 180, 85);
-}
-div{
+
+
+body {
+    background-image: linear-gradient(#c6574c, #b652bb);
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 5vw;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #444444;
+    padding: 10px;
+}
+h1,h2,h3 {
+    line-height: 1.2;
 }
 ::selection {
     background: lightblue;
