@@ -1,9 +1,17 @@
-// Custom.scss
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+$font-family-base: 'Poppins', sans-serif;
 
-// Option A: Include all of Bootstrap
+$space-cadet: #1c1f33;
+$tickle-me-pink: #FBAF00;
+$plum: #EE2E31;
+$pistachio: #1d7874;
+$robbin-egg-blue: #9ceaef;
 
-// Include any default variable overrides here (though functions won't be available)
+$primary: $space-cadet;
+$success: $tickle-me-pink;
+$danger: $plum;
+$warning: $pistachio;
+$info: $robbin-egg-blue;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-// Then add additional custom code here
